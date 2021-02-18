@@ -1,6 +1,6 @@
 from os import remove
 
-class Agenda:
+class Agenda():
     def __init__(self):
         #Declarando propiedades de la clase Agenda
         self.nombre = ""

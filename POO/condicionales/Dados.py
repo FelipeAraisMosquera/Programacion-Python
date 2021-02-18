@@ -14,7 +14,7 @@ class Dados():
         intentos = 5
         if self.num == self.aleatorio:
             print(f"¡Ha ganado! El numero {self.num} es el correcto.")
-        while self.num != self.aleatorio:
+        while self.num != self.aleatorio: #Es igual a True
             print(f"Sigue intentando, el numero no es correcto.")
             intentos = intentos - 1
             self.num = int(input("¡Gira el dado!: "))
